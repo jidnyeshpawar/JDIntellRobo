@@ -25,7 +25,7 @@ print("Husky robot spawned ")
 G_X, G_Y = -2.5, 5.0 #Goal
 GOAL_THRESHOLD = 0.4
 
-NOISE_PERCENT = 20  # odometry and lidar noise level, 0 to 100
+NOISE_PERCENT = 25  # odometry and lidar noise level, 0 to 100
 noise = np.clip(NOISE_PERCENT, 0, 100) / 100.0
 np.random.seed(42)  # repeatable runs
 
